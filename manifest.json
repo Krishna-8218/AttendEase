@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "75% Attendance Calculator",
+  "version": "1.0",
+  "description": "Calculate classes needed to maintain 75% attendance",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://learner.vierp.in/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://learner.vierp.in/attendance*"],
+      "js": ["content.js"]
+    }
+  ]
+}
