@@ -36,7 +36,7 @@ Never stress about attendance again! Automatically calculates how many classes y
 
 ## 📸 Screenshot
 
-![Extension Screenshot](screenshot.png)
+![Extension Screenshot](Screenshot 2026-01-13 173100.png)
 
 ## 🎓 Made For
 
